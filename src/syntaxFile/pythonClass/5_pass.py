@@ -14,7 +14,7 @@ class BuildingUnit(Unit):
 		pass # init이 작성된 것처럼 인식하고 패싱
 
 supply_depot = BuildingUnit("서플라이 디팟", 500, "7시")
-
+# print(supply_depot.hp)
 def game_start():
 	print("새로운 게임 시작")
 

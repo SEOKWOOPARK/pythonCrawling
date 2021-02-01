@@ -15,7 +15,6 @@ class BuildingUnit(Unit):
 		# Unit.__init__(self, name, hp, 0) 동일
 		self.location = location
 
-
 class Unit:
 	def __init__(self):
 		print("Unit 생성자")
