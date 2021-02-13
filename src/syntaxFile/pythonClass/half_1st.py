@@ -147,6 +147,7 @@ for unit in attack_units:
 
 for uni in attack_units:
 	unit.attack("1시")
+	unit.attack("9시")
 
 for unit in attack_units:
 	unit.damaged(randint(5, 21)) # 랜덤값으로 공격받기, import random
