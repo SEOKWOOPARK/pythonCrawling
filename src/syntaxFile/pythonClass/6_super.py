@@ -1,9 +1,10 @@
 class Unit:
-	def __init__(self, name, hp, speed):
+	def __init__(self, name, hp, speed, upgrade):
 		self.name = name
 		self.hp = hp
 		self.speed = speed
-
+		self.upgrade = upgrade
+		
 	def move(self, location):
 		print("[지상 유닛 이동중]")
 		print("{0} -> {1} 방향으로 이동한다. 속도는 {2}"\
